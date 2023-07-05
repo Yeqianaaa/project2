@@ -4,6 +4,8 @@
 body{
     font-family: Verdana, sans-serif;
     margin: 0;
+    color: #D68CAA;
+
 }
 
 header h1{
@@ -62,7 +64,7 @@ nav{
 }
 
 nav a{
-    color: black;
+    color: #D68CAA;
     text-decoration: none;
 }
 nav a:hover{
@@ -119,6 +121,9 @@ img{
 
 .flex-basis-half .flex-item{
     flex-basis: 50%; 
+}
+.flex-basis .flex-item{
+    flex-basis: 100%; 
 }
 
 .flex-item a{
